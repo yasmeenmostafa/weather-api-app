@@ -1,0 +1,46 @@
+body{
+    font-family: Roboto,"Open Sans", sans-serif;
+}
+.weather{
+    background-image: url("banner.png");
+
+
+   background-repeat: no-repeat;
+    background-position:top center;
+    /* height: 100vh; */
+    background-color: black;
+}
+.find{
+    position: absolute;
+    top:7px;
+    right: 30px;
+
+}
+.number{
+    font-size: 70px !important;
+    
+}
+.color{
+    background-color: rgb(38,41,54);
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    background-color:rgb(30,32,43);
+    color:rgb(0,154,216);
+    border-radius: 50%;
+    
+}
+.icon:hover{
+    color:rgb(30,32,43);
+  background-color:rgb(0,154,216);
+  transition-duration: 0.5s;
+}
+.hh{
+    height: 300px;
+}
+.nav-item a:hover{
+    border:2px solid rgb(1, 85, 187);
+    color:rgb(1, 85, 187)  !important;
+    border-radius: 20px;
+}
